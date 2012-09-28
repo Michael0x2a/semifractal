@@ -1,0 +1,19 @@
+************* Module semifractal
+R0201: 41,4:Generator._generate_seed: Method could be a function
+C0111: 56,8:Generator._calculate_row._above: Missing docstring
+W0612: 75,16:Generator.generate: Unused variable 'i'
+W0612:120,12:Grid.__init__: Unused variable 'i'
+C0111:130,4:Grid.get: Missing docstring
+C0111:133,4:Grid.set: Missing docstring
+C0111:155,4:PygameRenderer._configure_pygame: Missing docstring
+C0111:161,4:PygameRenderer._configure_graphics: Missing docstring
+E1121:162,20:PygameRenderer._configure_graphics: Too many positional arguments for function call
+R0201:181,4:PygameRenderer.wait: Method could be a function
+W0201:158,8:PygameRenderer._configure_pygame: Attribute 'surface' defined outside __init__
+W0201:162,8:PygameRenderer._configure_graphics: Attribute 'tile' defined outside __init__
+C0111:208,4:AsciiRenderer.to_string: Missing docstring
+R0201:208,4:AsciiRenderer.to_string: Method could be a function
+C0111:221,4:AsciiRenderer.render: Missing docstring
+E1120:222,14:AsciiRenderer.render: No value passed for parameter 'grid' in function call
+C0111:265,0:profiling_test: Missing docstring
+E0602:266,23:profiling_test: Undefined variable 'rule'
